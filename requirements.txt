@@ -1,0 +1,6 @@
+requests
+matplotlib
+pytz
+numpy
+pandas
+adjustText
