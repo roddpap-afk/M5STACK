@@ -12,7 +12,7 @@ from datetime import datetime
 import streamlit as st
 
 # Configuração da página para Mobile
-st.set_page_config(page_title="M5Stack Dash", layout="wide")
+st.set_page_config(page_title="M5Stack Dash", layout="tight")
 st.title("📊 Monitoramento M5Stack")
 
 # Botão de atualização manual na interface do celular
@@ -109,3 +109,5 @@ plt.autoscale()
 # --- EXIBIÇÃO NO STREAMLIT (CELULAR) ---
 # Mostra o gráfico adaptando o tamanho dinamicamente para a tela do celular
 st.pyplot(fig, clear_figure=True)
+
+
